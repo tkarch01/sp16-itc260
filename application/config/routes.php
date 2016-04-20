@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //routes fo teh News Controller:
+$route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';  //$1 is the pickup on the news item
 $route['news'] = 'news';
 
